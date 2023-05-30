@@ -1,30 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <title>Portfolio</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#home">Pojects</a></li>
-            <li><a href="#home">Skills</a></li>
-            <li><a href="#home">Contact</a></li>
-        </ul>
-    </nav>
-    <section class="display">
-        <div class="logo">
-            <img src="style/img/bgprofile.jpg" alt="" height="50px" width="50px">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pangolin&display=swap" rel="stylesheet"/>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <title>Prawal Chaudhary</title>
+    <script src="srm.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- logo -->
+      <a href="" class="logo">Portfolio</a>
+      <!-- menu icon -->
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <!-- navbar -->
+      <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <div class="home-content">
+        <h3>Hello, It's</h3>
+        <h1 style="color: rgba(0, 255, 191, 0.726);">Prawal Chaudhary</h1>
+        <h3>And I am <span class="multiple-text"></span></h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          non repellat est ea recusandae dignissimos placeat perspiciatis,
+          nostrum porro. Saepe.
+        </p>
+        <div class="social-media">
+          <a href=""><i class="bx bxl-facebook-circle"></i></a>
+          <a href=""><i class="bx bxl-instagram"></i></a>
+          <a href=""><i class="bx bxl-linkedin"></i></a>
+          <a href=""><i class="bx bxl-youtube"></i></a>
         </div>
-        <div class="btn">
-            <button>Contact</button>
-        </div>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+      <div class="image">
+        <img src="img/profile.png" alt="" />
+      </div>
     </section>
-</body>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/profile.png" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Web Developer</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, velit
+          perferendis architecto praesentium optio enim quis in distinctio
+          magnam repellat corporis, aspernatur sapiente inventore? Quod
+          consectetur impedit sequi placeat expedita? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Voluptatem, iure delectus aliquam
+          accusantium tenetur quae dolorum magni ducimus quam et qui quisquam
+          adipisci, animi dicta nam quos? Incidunt, sint corrupti iure numquam,
+          nisi quia magni corporis amet est nihil dolor fugiat non nostrum
+          dolorem harum totam. Obcaecati est quis fugiat!
+        </p>
+        <a href="" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+      <div class="services-container">
+        <!-- Servive 1 -->
+        <div class="service-box">
+          <i class="bx bx-code-alt service-icon"></i>
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            quas molestiae fugit ad sunt nobis, minima aliquid ducimus nemo
+            veniam aspernatur
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+        <!-- Service 2 -->
+        <div class="service-box">
+          <i class="bx bx-paint service-icon"></i>
+          <h3>Graphics Designing</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            quas molestiae fugit ad sunt nobis, minima aliquid ducimus nemo
+            veniam aspernatur
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+        <!-- Service 3 -->
+        <div class="service-box">
+          <i class="bx bxl-android service-icon"></i>
+          <h3>App Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            quas molestiae fugit ad sunt nobis, minima aliquid ducimus nemo
+            veniam aspernatur
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <!-- Project 1 -->
+        <div class="portfolio-box">
+          <img src="img/p1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+              iusto!
+            </p>
+            <a href=""><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="portfolio-box">
+          <img src="img/p2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+              iusto!
+            </p>
+            <a href=""><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="portfolio-box">
+          <img src="img/p3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+              iusto!
+            </p>
+            <a href=""><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="portfolio-box">
+          <img src="img/p4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+              iusto!
+            </p>
+            <a href=""><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="portfolio-box">
+          <img src="img/p5.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+              iusto!
+            </p>
+            <a href=""><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <!-- Project 6 -->
+        <div class="portfolio-box">
+          <img src="img/p6.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+              iusto!
+            </p>
+            <a href=""><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email" />
+        <input type="number" placeholder="Phone Number" />
+        <input type="text" placeholder="Title" />
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Write something Here"
+        ></textarea>
+        <input class="btn" type="submit" value="Submit" />
+      </form>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Cpoyright &copy; 2023 by Prawal Chaudhary | All Rights Reserved.</p>
+      </div>
+      <div class="footer-icontop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <!-- JS -->
+    <script src="app.js"></script>
+    <!-- Scroll Reveal -->
+  </body>
 </html>
