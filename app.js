@@ -48,7 +48,7 @@ ScrollReveal({
 ScrollReveal().reveal('.home-content, .heading', {origin: 'top'})
 ScrollReveal().reveal('.image, .services-container, .portfolio-box, .contact form, .social-media, .btn', {origin: 'bottom'})
 ScrollReveal().reveal('.about-img, .home-content h1', {origin: 'left'})
-ScrollReveal().reveal('.about h3, .home-content p, .about p', {origin: 'right'})
+ScrollReveal().reveal('.about h3, .home-content p, .about p', {origin: 'right',distance: '35px'})
 
 
 // Typed Js
